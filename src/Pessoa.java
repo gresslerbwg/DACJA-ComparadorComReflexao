@@ -3,12 +3,26 @@ public class Pessoa {
 	private String nome;
 	private String sobrenome;
 	private int idade;
-
-	public Pessoa(String nome, String sobrenome, int idade) {
+	private String cargo;
+	
+	public Pessoa(String nome, String sobrenome, int idade, String cargo) {
 		super();
 		this.nome = nome;
 		this.sobrenome = sobrenome;
 		this.idade = idade;
+		this.cargo = cargo;
+	}
+	/**
+	 * @return the cargo
+	 */
+	public String getCargo() {
+		return cargo;
+	}
+	/**
+	 * @param cargo the cargo to set
+	 */
+	public void setCargo(String cargo) {
+		this.cargo = cargo;
 	}
 	/**
 	 * @return the nome

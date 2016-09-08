@@ -3,8 +3,8 @@ import java.util.List;
 public class Principal {
 
 	public static void main(String[] args) throws Exception {
-		Pessoa p1 = new Pessoa("Eduardo", "Guerra", 36);
-		Pessoa p2 = new Pessoa("Eduardo", "Guerra", 37);
+		Pessoa p1 = new Pessoa("Eduardo", "Guerra", 36, "Pesquisador");
+		Pessoa p2 = new Pessoa("Eduardo", "Guerra", 37, "Programador");
 		
 		List<Diferenca> difs = Comparador.comparar(p1, p2);
 		
